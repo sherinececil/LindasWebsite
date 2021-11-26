@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+ <title>Document</title>
+</head>
+<body>
+ <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+ <div class="container">
+  <div  class="row">
+  <div class="col">
+    <h1 class="display-4">Linda</h1>
+    <h3> Eberle</h3>
+  </div >
+  <div class="col col-lg-2">
+      <ul class="nav flex-column justify-content-end ">
+       <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#worksPage" style="color: black;">Works</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#cvPage" style="color: black;" >CV</a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#contactPage" style="color: black;">Contact</a>
+       </li>
+      </ul>
+  </div>
+  <div class ="row">
+<figure class="figure">
+ <img src="Eberle_Linda_Banane_14.jpg" class="figure-img img-fluid rounded" alt="...">
+</figure>
+  </div>
+</div>
+ </div>
+ <br>
+ <br>
+<div class="container" id="worksPage">
+ <div class="row">
+  <div class="col-8">
+   <figure class="figure">
+    <img src="pexels-madison-inouye-3728295.jpg" class=" img-fluid rounded" alt="...">
+   </figure>
+  </div>
+  <div class="col-4">
+   <figure class="figure">
+    <img src="pexels-laura-tancredi-7078033.jpg" class=" img-fluid rounded"  alt="...">
+   </figure>
+  </div>
+ <div class="row">
+  <div class="col-4">
+   <figure class="figure">
+    <img src="pexels-adrien-olichon-3137077.jpg" class=" img-fluid rounded" alt="...">
+   </figure>
+  </div>
+  <div class="col-8">
+   <figure class="figure">
+    <img src="pexels-zaksheuskaya-1561020.jpg" class=" img-fluid rounded" alt="...">
+   </figure>
+  </div>
+ </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- CV Page -->
+<div class="container" id="cvPage">
+<p class="h5">1. Some Information</p>
+<br>
+<br>
+<p class="h5">2. Some Information</p>
+<br>
+<br>
+<p class="h5">3. Some Information</p>
+<br>
+<br>
+<p class="h5">4. Some Information</p>
+<br>
+<br>
+<p class="h5">5. Some Information</p>
+<br>
+<br>
+<p class="h5">6. Some Information</p>
+<br>
+<br>
+</div>
+<br>
+<br>
+<!-- Contact -->
+<div class="container" id="contactPage">
+<p class="h4">Linda Eberle</p>
+<p class="h5">Address:</p>
+<p class="h6">Somewhere in Germany</p>
+<p class="h6">Somewhere in Germany</p>
+<p class="h5">Email:Linda@email.com</p>
+</div>
+<!-- Button Logic -->
+<script>
+ //Get the button
+ var mybutton = document.getElementById("myBtn");
+
+ // When the user scrolls down 20px from the top of the document, show the button
+ window.onscroll = function () { scrollFunction() };
+
+ function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+   mybutton.style.display = "block";
+  } else {
+   mybutton.style.display = "none";
+  }
+ }
+
+ // When the user clicks on the button, scroll to the top of the document
+ function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+ }
+</script>
+</body>
+
+</html>
