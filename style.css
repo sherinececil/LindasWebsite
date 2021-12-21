@@ -1,8 +1,15 @@
 * {
-  font-family: "Cinzel", serif;
+  font-family: sans-serif;
+  color: white;
   margin: 0em;
   padding: 0em;
-  /* background-color: #cccccc; */
+  /* background-color: black; */
+}
+.linda_name {
+  margin: 10px;
+}
+h3 {
+  padding-left: 35px;
 }
 .navbar {
   display: flex;
@@ -11,9 +18,9 @@
 a {
   text-decoration: none;
 }
+
 li {
   list-style-type: none;
-  color: black;
 }
 .nav-link {
   color: "$gray-700";
