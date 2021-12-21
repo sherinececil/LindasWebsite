@@ -62,9 +62,6 @@ img {
     text-align: right;
     padding-right: 20px;
   }
-  li {
-    font-size: 30px;
-  }
 }
 /*working only in ipad portrait device*/
 @media only screen and (width: 768px) and (height: 1024px) and (orientation: portrait) {
