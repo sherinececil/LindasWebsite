@@ -11,10 +11,6 @@
 h3 {
   padding-left: 35px;
 }
-.navbar {
-  display: flex;
-  justify-content: space-between;
-}
 a {
   text-decoration: none;
 }
@@ -53,5 +49,46 @@ img {
 @media (max-width: 450px) {
   h3 {
     padding-left: 15px;
+  }
+  ul {
+    padding-right: 20px;
+  }
+}
+@media (max-width: 450px) {
+  h3 {
+    padding-left: 15px;
+  }
+  ul {
+    text-align: right;
+    padding-right: 20px;
+  }
+  li {
+    font-size: 30px;
+  }
+}
+/*working only in ipad portrait device*/
+@media only screen and (width: 768px) and (height: 1024px) and (orientation: portrait) {
+  h3 {
+    padding-left: 25px;
+  }
+  ul {
+    text-align: right;
+    padding-right: 30px;
+  }
+  li {
+    font-size: 20px;
+  }
+}
+/*working only in ipad landscape device*/
+@media all and (width: 1024px) and (height: 768px) and (orientation: landscape) {
+  h3 {
+    padding-left: 25px;
+  }
+  ul {
+    text-align: right;
+    padding-right: 20px;
+  }
+  li {
+    font-size: 30px;
   }
 }
